@@ -1,0 +1,12 @@
+Vertical center (don't forget the parent must have a defined height!):
+my-auto for centering inside flex (.d-flex) elements
+my-auto can be used to center columns (.col-) inside row
+align-items-center to center columns (col-*) inside row
+
+
+Horizontal center:
+text-center to center display:inline elements & column content
+mx-auto for centering inside flex elements
+mx-auto can be used to center columns (.col-) inside row
+justify-content-center to center columns (col-*) inside row
+https://www.codeply.com/p/0VM5MJ7Had //above example code

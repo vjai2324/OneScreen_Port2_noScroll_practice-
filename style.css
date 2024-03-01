@@ -1,0 +1,50 @@
+sidebar {
+    position: fixed;
+    top: 250px;
+
+}
+
+.modal-backdrop {
+    background-color: none !important;
+    background-color: transparent;
+}
+
+.proifle_text {
+    font-size: 25px;
+    text-align: center;
+}
+
+/* ---mobile device scrren  */
+@media screen and (min-width: 300px) and (max-width: 1040px) {
+    .proifle_text {
+
+        font-size: 18px;
+        /* border: 0px solid red; */
+        text-align: justify;
+    }
+
+}
+
+
+.scrolling-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+    /* Adjust padding as needed */
+    padding: 20px 0; 
+  }
+  .card {
+    display: inline-block;
+    /* Adjust card width  */
+    width: 200px; 
+    /* Adjust margin between cards  */
+    margin-right: 10px; 
+  }
+  .about_section{
+   height: 80vh;
+   width: 90dvw;
+   /* border: 1px solid red !important; */
+  }
+  .about_section1{
+    position: relative;
+  }
+
